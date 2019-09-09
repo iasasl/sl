@@ -1,0 +1,76 @@
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.container  {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.menu {
+    width: 28.5%;
+    height: 100%;
+    display: block;
+    position: fixed;
+    flex-direction: column;
+    float: left;
+    overflow-y: scroll;
+}
+
+.menu img {
+    position: absolute;
+    width: 15%;
+    float: left;
+    margin: 13px 0 0 20px;
+}
+
+.product {
+    margin: 10px 0 4px 8px;
+    width: 96.8%;
+    background: linear-gradient(to right, #fff, #82a8cf 27%);
+    outline: 1px solid #497098;
+    box-shadow: 0px 7px 14px -1px #545796;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.product:hover {
+    box-shadow: 0px 12px 13px 0px #545796;
+}
+
+.product:active {
+    box-shadow: none;
+    outline: 1px solid lightblue;
+}
+
+.menu-point {
+    text-decoration: none;
+    display: block;
+    margin-left: 130px;
+    color: #b56753;
+    letter-spacing: 2px;
+}
+
+.menu-point p {
+    text-decoration: none;
+    margin-top: -6px;
+    color: #a75b48;
+    line-height: 40px;
+    height: 100%;
+    font-size: 26px;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+}
+
+.infos {
+    float: right;
+    width: 71%;
+}
+
+.product-info {
+    height: 1080px;
+    border: 1px solid transparent;
+    overflow-y: scroll;
+}
